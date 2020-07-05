@@ -1,0 +1,32 @@
+body {
+    font-family: arial;
+    background-color: teal;
+  }
+  h1 {
+      font-size: 40px;
+      font-family: times;
+      font-style: initial;
+      color: peachpuff;
+  }
+  ul {
+    font-family: monospace;
+  }
+  li {
+    font-size: 25px;
+    list-style: symbols(-);
+
+
+  }
+  
+  .list {
+    font-size: 20px;
+    font-family: tahoma;
+    list-style: circle;
+    color: rgb(36, 33, 33);
+  }
+  
+  #date {
+    font-size: 10px;
+    font-style: italic;
+    font-weight: bold;
+  }
