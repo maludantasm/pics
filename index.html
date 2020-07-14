@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr"> 
-<head>
-    <meta charset="UTF-8">
-    <title>Pics</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <h1>Lista</h1>
-    <p id="date"></p>
-    <ul>
-        <li class="list">Filmes/Séries</li>
-        <li class="list">Paisagens</li>
-        <li class="list">Quadros</li>
-    </ul>
-<script src="app.js"></script>
-</body>
-<script>alert('I am learning')</script> 
+    <head>
+        <meta charset="UTF-8">
+        <title>Pics</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="app.js"></script> 
+        <link rel="sortcut icon" href="logo1.png" type="image/png" />       
+    </head>
+    <body>
+        <h1>Lista</h1>
+        <h2>para o quarto</h2>
+        <a style="color: rgb(187, 160, 134); font-size: 0.4cm;" href="https://www.google.com/">google page</a><br>
+        <p style="color: rgb(87, 54, 39);" id="date"></p>
+        <button style='font-size: 0.2cm;' onclick="showDate();">data</button>
+        <table style="width:100%">
+            <tr>
+                <td style="width:50%">
+                    <ul>
+                        <li style="color: teal;" class="list"><a href='pg2.html'>Filmes/Séries</a></li>
+                        <li style="color: teal;" class="list"><a href='pg3.html'>Famosos</a></li>
+                        <li style="color: teal;" class="list"><a href='pg4.html'>Quadros</a></li>
+                        <li style="color: teal;" class="list"><a href='pg5.html'>Nordeste</a></li>
+                    </ul>
+                </td>
+                <td style="width:50%" align="left">
+                    <img id="imagem-animais" src="pig.jpg" width="350" height="270" title="mini pig">
+                </td>                                
+            </tr>
+            <tr>
+                <td style="width:50%"></td>
+                <td style="width:50%" align="left">
+                    <button onclick="document.getElementById('imagem-animais').src='pig.jpg';">pig</button>
+                    <button onclick="document.getElementById('imagem-animais').src='bode.jpg';">bode</button>
+                </td>
+            </tr>
+        </table>
+        seu nome:
+        <input id='inpText' onkeydown="if (event.keyCode === 13) {msgMalu2(inpText.value)};"></input>
+        
+    </body><br>
 </html>
